@@ -49,9 +49,9 @@ public class PolymorphismDefence {
 		duty(new AirForce());
 
 	}
-	static void duty(SecurityForce s) {
-		s.protect();
+	static void duty(SecurityForce s) {		
 		s.job();
+		s.protect();
 	}
 	}
 
