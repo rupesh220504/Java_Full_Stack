@@ -6,15 +6,11 @@ class Circle{
 	double area; 
 	
 	Circle(double r){
-		this.r = r;
-		
+		this.r = r;	
 	}
-	
-	double display() {
-		
+	double display() {	
 		area = pi * r *r;
-		return area;
-		
+		return area;	
 	}
 }
 
@@ -24,9 +20,5 @@ public class StaticAreaOfCircle {
 		// TODO Auto-generated method stub
 		Circle c = new Circle(5);
 		System.out.println(c.display());
-		
-		
-
 	}
-
 }
