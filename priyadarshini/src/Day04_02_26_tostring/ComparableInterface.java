@@ -3,8 +3,8 @@ package Day04_02_26_tostring;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
-
-public class EmployeeApp {
+//////////////////////  Comparable ///////////////////////////////////////
+public class ComparableInterface {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
          Employee e = new Employee(101,"Rupesh",200);
