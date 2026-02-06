@@ -46,10 +46,7 @@ class SortComplexobject implements Comparator{
 		}
 		else
 		return -1;
-	}
-	
-	
-	
+	}	
 }
 class Employee1{
 	int id;

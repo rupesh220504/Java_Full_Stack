@@ -2,8 +2,9 @@ package Day04_02_26_tostring;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 
-public class SortingComplexObject {
+public class ComplexObjectReverseSort {
     public static void main(String[] args) {
 		ArrayList<Integer> al = new ArrayList<>();
 		al.add(100);
@@ -11,11 +12,12 @@ public class SortingComplexObject {
 		al.add(150);
 		al.add(25);
 		al.add(75);
-		al.add("Rupesh");
-		al.add(10.5);
-		al.add(true);
+		al.add(125);
+		al.add(175);
 		System.out.println(al);
-		Collections.sort(al);
-		System.out.println(al);
+		Comparator c = Collections.reverseOrder();
+		Collections.sort(al,c);		System.out.println(al);
+		
+
 	}
 }
